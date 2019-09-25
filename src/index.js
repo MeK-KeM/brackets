@@ -23,6 +23,10 @@ module.exports = function check(str, bracketsConfig) {
 
             stack.pop();
 
+        } else {
+
+            stack.push(cur);
+
         }
     });
 
